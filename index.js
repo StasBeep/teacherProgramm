@@ -1,6 +1,7 @@
 'use strict';
 
-let a = 5;
+let a = Number(prompt("Введите a = "));
+let a1 = +prompt("Введите a1 = ");
 
 console.log(a);
 
