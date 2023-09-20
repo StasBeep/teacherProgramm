@@ -1,7 +1,0 @@
-C:\Users\Stas laptop\source\repos\ProgrammPosl\bin\Debug\ProgrammPosl.exe.config
-C:\Users\Stas laptop\source\repos\ProgrammPosl\bin\Debug\ProgrammPosl.exe
-C:\Users\Stas laptop\source\repos\ProgrammPosl\bin\Debug\ProgrammPosl.pdb
-C:\Users\Stas laptop\source\repos\ProgrammPosl\obj\Debug\ProgrammPosl.csprojAssemblyReference.cache
-C:\Users\Stas laptop\source\repos\ProgrammPosl\obj\Debug\ProgrammPosl.csproj.CoreCompileInputs.cache
-C:\Users\Stas laptop\source\repos\ProgrammPosl\obj\Debug\ProgrammPosl.exe
-C:\Users\Stas laptop\source\repos\ProgrammPosl\obj\Debug\ProgrammPosl.pdb
