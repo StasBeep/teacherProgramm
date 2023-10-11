@@ -37,3 +37,7 @@ node_modules
 dist
 
 draft
+
+bin
+.vs
+obj
