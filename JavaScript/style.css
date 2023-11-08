@@ -1,4 +1,68 @@
-.button {
-    background-color: yellow;
-    padding: 20px;
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-name {
+    display: flex;
+}
+
+.header-name-link {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-name-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+    padding-top: 5px;
+    display: block;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-list-li {
+    margin-right: 20px;
+}
+
+.header-btn-in {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.header-btn-up {
+    margin-right: 20px;
+}
+
+.header-btn-color {
+    
+}
+
+.header-btn-color {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 10px;
+    transition: 1s ease background;
+}
+
+.header-btn-color:hover {
+    background: #02897A;
+}
+
+.header-btn-color:hover > .header-btn-color-svg {
+    fill: #fff;
+}
+
+.header-btn-color-svg {
+    fill: #02897A;
 }
