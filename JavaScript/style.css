@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px 146px;
 }
 
 .header-name {
@@ -16,7 +17,7 @@
     text-align: center;
     font-size: 30px;
     line-height: 28px;
-    color: #173A56;
+    color: #173a56;
     padding-top: 5px;
     display: block;
 }
@@ -43,7 +44,6 @@
 }
 
 .header-btn-color {
-    
 }
 
 .header-btn-color {
@@ -56,7 +56,7 @@
 }
 
 .header-btn-color:hover {
-    background: #02897A;
+    background: #02897a;
 }
 
 .header-btn-color:hover > .header-btn-color-svg {
@@ -64,5 +64,63 @@
 }
 
 .header-btn-color-svg {
-    fill: #02897A;
+    fill: #02897a;
+}
+
+.prewie {
+    padding-left: 159px;
+    padding-bottom: 230px;
+    background-image: url(./image/bg-previe.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 550px;
+}
+
+.prewie-title {
+    color: #22343d;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.prewie-title-second {
+    display: block;
+}
+
+.prewie-description {
+    width: 375px;
+    color: #22343d;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+    margin-bottom: 45px;
+}
+
+.prewie-btn {
+    padding: 15px 41px;
+    background-color: #02897a;
+    border-radius: 5px;
+    border: 1px solid #02897a;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-right: 30px;
+}
+
+.prewie-link {
+    color: #02897a;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+
+.prewie-link::before {
+    content: url(./image/arrow.svg);
+    margin-right: 5px;
 }
