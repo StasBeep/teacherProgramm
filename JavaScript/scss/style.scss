@@ -203,3 +203,92 @@
         }
     }
 }
+
+
+.management {
+    background-image: url(../image/bg-management.jpg);
+    background-repeat: no-repeat;
+    background-position: 600px 150px;
+
+    &-text {
+        width: 400px;
+        padding-left: 145px;
+        padding-top: 186px;
+        padding-bottom: 150px;
+
+        &-undertitle {
+            color: #22343D;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 8px;
+        }
+
+        &-title {
+            display: block;
+            color: #22343D;
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 23px;
+        }
+
+        &-description {
+            color: #22343D;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 30px;
+        }
+
+        &-first {
+
+            &-title {
+                color: #22343D;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+            }
+
+            &-p {
+                color: #22343D;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                margin-bottom: 25px;
+            }
+        }
+
+        &-second {
+
+            &-title {
+                color: #22343D;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+            }
+
+            &-p {
+                color: #22343D;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
