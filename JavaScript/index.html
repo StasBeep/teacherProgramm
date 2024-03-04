@@ -7,105 +7,16 @@
     <title>Document</title>
     <link rel="shortcut icon" href="./image/logotip.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./timer.js" defer></script>
 </head>
 
-<body style="background-color: red;">
-    <div class="header">
-        <div class="header-name">
-            <a href="#" class="header-name-link">
-                <img class="header-name-link-img" src="./image/logotip.png" alt="logo" width="40" height="36">
-            </a>
-            <span class="header-name-title">Product</span>
-        </div>
-        <ul class="header-list">
-            <li class="header-list-li">Product</li>
-            <li class="header-list-li">Customers</li>
-            <li class="header-list-li">Pricing</li>
-            <li class="header-list-li">Resources</li>
-        </ul>
-        <div class="header-btn">
-            <button class="header-btn-in">
-                Sing In
-            </button>
-            <button class="header-btn-up">Sing Up</button>
-            <button class="header-btn-color">
-                <svg class="header-btn-color-svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
-                    <path
-                        d="M12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22ZM12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4Z" />
-                    <path d="M19 12C19 8.134 15.865 5 12 5V19C15.865 19 19 15.866 19 12Z" />
-                </svg>
-            </button>
-        </div>
-    </div>
-    <div class="prewie">
-        <h1 class="prewie-title">Work at the speed <span class="prewie-title-second">of thought</span></h1>
-        <p class="prewie-description">Tools, tutorials, design and innovation experts, all in one place! The most
-            intuitive way to imagine your next user experience.</p>
-        <button class="prewie-btn">
-            Get started
-        </button>
-        <a class="prewie-link" href="https://www.ozon.ru/" target="_blank"> Watch the Video</a>
-    </div>
-    <div class="product">
-        <span class="product-title">Product was Built Specifically for You</span>
-        <!-- ul>li*4 -->
-        <ul class="product-list">
-            <li class="product-list-li">
-                <div class="product-list-li-btn">
-                    <svg class="product-list-li-btn-svg" width="11" height="17" viewbox="0 0 11 17">
-                        <path
-                            d="M10.1161 9.42829L0.973214 0.285435C0.866071 0.169363 0.723214 0.115791 0.571429 0.115791C0.5 0.115791 0.419643 0.133649 0.357143 0.160435C0.142857 0.249721 0 0.455077 0 0.687221V14.1158C0 14.3479 0.142857 14.5533 0.357143 14.6426C0.419643 14.6694 0.5 14.6872 0.571429 14.6872C0.723214 14.6872 0.866071 14.6247 0.973214 14.5176L3.75893 11.7319L5.46429 15.7676C5.58929 16.0533 5.91964 16.1961 6.21429 16.0711L7.79464 15.4015C8.08036 15.2765 8.22322 14.9461 8.09822 14.6515L6.30357 10.4015H9.71429C9.94643 10.4015 10.1518 10.2586 10.2411 10.0444C10.3304 9.83901 10.2857 9.58901 10.1161 9.42829Z" />
-                    </svg>
-                </div>
-                <span class="product-list-li-title">First click tests</span>
-                <p class="product-list-li-description">While most people enjoy casino gambling,</p>
-            </li>
-            <li class="product-list-li">
-                <div class="product-list-li-btn">
-                    <svg class="product-list-li-btn-svg" width="16" height="14" viewbox="0 0 16 14">
-                        <path
-                            d="M8 13.9729C8.14286 13.9729 8.28572 13.9194 8.39286 13.8122L13.9554 8.45508C14.0357 8.37472 16 6.58008 16 4.43722C16 1.82115 14.4018 0.258649 11.7321 0.258649C10.1696 0.258649 8.70536 1.49079 8 2.18722C7.29464 1.49079 5.83036 0.258649 4.26786 0.258649C1.59821 0.258649 0 1.82115 0 4.43722C0 6.58008 1.96429 8.37472 2.03571 8.43722L7.60714 13.8122C7.71429 13.9194 7.85714 13.9729 8 13.9729Z" />
-                    </svg>
-                </div>
-                <span class="product-list-li-title">First click tests</span>
-                <p class="product-list-li-description">While most people enjoy casino gambling,</p>
-            </li>
-            <li class="product-list-li">
-                <div class="product-list-li-btn">
-                    <svg class="product-list-li-btn-svg" width="14" height="17" viewbox="0 0 14 17">
-                        <path
-                            d="M12.5714 1.25865H13.4286C13.5893 1.25865 13.7143 1.13365 13.7143 0.972935V0.401506C13.7143 0.240792 13.5893 0.115791 13.4286 0.115791H0.285714C0.125 0.115791 0 0.240792 0 0.401506V0.972935C0 1.13365 0.125 1.25865 0.285714 1.25865H1.14286C1.14286 4.56222 2.72321 6.95508 4.47321 8.11579C2.72321 9.27651 1.14286 11.6694 1.14286 14.9729H0.285714C0.125 14.9729 0 15.0979 0 15.2586V15.8301C0 15.9908 0.125 16.1158 0.285714 16.1158H13.4286C13.5893 16.1158 13.7143 15.9908 13.7143 15.8301V15.2586C13.7143 15.0979 13.5893 14.9729 13.4286 14.9729H12.5714C12.5714 11.6694 10.9911 9.27651 9.24107 8.11579C10.9911 6.95508 12.5714 4.56222 12.5714 1.25865ZM11.4286 1.25865C11.4286 2.56222 11.1339 3.71401 10.6696 4.68722H3.04464C2.58036 3.71401 2.28571 2.56222 2.28571 1.25865H11.4286ZM10.9196 12.1158H2.79464C3.45536 10.3926 4.64286 9.16936 5.83036 8.68722H7.88393C9.07143 9.16936 10.2589 10.3926 10.9196 12.1158Z" />
-                    </svg>
-                </div>
-                <span class="product-list-li-title">First click tests</span>
-                <p class="product-list-li-description">While most people enjoy casino gambling,</p>
-            </li>
-            <li class="product-list-li">
-                <div class="product-list-li-btn">
-                    <svg class="product-list-li-btn-svg" width="18" height="14" viewbox="0 0 18 14">
-                        <path
-                            d="M9.48214 5.47293L10.6518 6.01758L12.3929 5.49972V4.28543C12.3929 2.22293 10.6518 0.571149 8.57143 0.571149C6.5 0.571149 4.75 2.21401 4.75 4.25865V9.79436C4.75 10.3033 4.33929 10.7051 3.83929 10.7051C3.33929 10.7051 2.92857 10.3033 2.92857 9.79436V7.45508H0C0 9.80329 0 9.83008 0 9.83008C0 11.9461 1.71429 13.6604 3.83036 13.6604C5.92857 13.6604 7.66071 11.9729 7.66071 9.88365V4.41936C7.66071 3.91936 8.07143 3.50865 8.57143 3.50865C9.07143 3.50865 9.48214 3.91936 9.48214 4.41936V5.47293ZM14.2143 7.45508V9.91044C14.2143 10.4104 13.8036 10.8122 13.3036 10.8122C12.8036 10.8122 12.3929 10.4104 12.3929 9.91044V7.49972L10.6518 8.01758L9.48214 7.47294V9.86579C9.48214 11.964 11.2054 13.6604 13.3125 13.6604C15.4286 13.6604 17.1429 11.9461 17.1429 9.83008C17.1429 9.83008 17.1429 9.80329 17.1429 7.45508H14.2143Z" />
-                    </svg>
-                </div>
-                <span class="product-list-li-title">First click tests</span>
-                <p class="product-list-li-description">While most people enjoy casino gambling,</p>
-            </li>
-        </ul>
-    </div>
-    <div class="management">
-        <div class="management-text">
-            <span class="management-text-undertitle">Effortless Validation for</span>
-            <span class="management-text-title">Management</span>
-            <p class="management-text-description">The Myspace page defines the individual, his or her characteristics,
-                traits, personal choices and the
-                overall personality of the person.</p>
-            <span class="management-text-first-title">Accessory makers</span>
-            <p class="management-text-first-p">While most people enjoy casino gambling, sports betting, lottery and
-                bingo playing for the fun</p>
-            <span class="management-text-second-title">Alterationists</span>
-            <p class="management-text-second-p">If you are looking for a new way to promote your business that won’t
-                cost you more money, </p>
-        </div>
+<body>
+    <div>
+        <input type="number" placeholder="Часы" class="time">
+        <input type="number" placeholder="Минуты" class="time">
+        <input type="number" placeholder="Секунды" class="time">
+        <button id="play">Запуск</button>
+        <span id="textime">Время</span>
     </div>
 </body>
 
