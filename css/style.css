@@ -3,7 +3,36 @@ body {
 }
 
 .car {
-  width: 1440px;
+  width: 1920px;
   margin: 0 auto;
   background: linear-gradient(#282828, #0F0F0F);
+  position: relative;
+}
+.car-description {
+  width: 750px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  margin: 0 0 300px;
+  padding-top: 76px;
+  padding-left: 141px;
+  box-sizing: border-box;
+}
+.car-car {
+  width: 900px;
+  height: 455px;
+  position: absolute;
+  top: 150px;
+  left: 700px;
+}
+.car-advantages {
+  display: block;
+  text-align: end;
+  padding-right: 295px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ff0900;
 }/*# sourceMappingURL=style.css.map */
