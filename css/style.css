@@ -1,1 +1,9 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+}
+
+.car {
+  width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(#282828, #0F0F0F);
+}/*# sourceMappingURL=style.css.map */
