@@ -3,13 +3,14 @@ body {
 }
 
 .car {
-    width: 1920px;
+    width: 1720px;
     margin: 0 auto; // центрирование
-    background: linear-gradient(#282828, #0F0F0F);
+    background: url(../img/bg-main.png), linear-gradient(#282828, #0F0F0F);
+    background-repeat: no-repeat;
     position: relative;
 
     &-description {
-        width: 750px;
+        width: 830px;
         text-align: center;
         font-weight: 900;
         font-size: 36px;
@@ -26,7 +27,7 @@ body {
         height: 455px;
         position: absolute;
         top: 150px;
-        left: 700px;
+        left: 800px;
     }
 
     &-advantages {
@@ -36,6 +37,25 @@ body {
         font-weight: 900;
         font-size: 48px;
         line-height: 58px;
-        color: #ff0900
+        color: #ff0900;
+        margin-bottom: 61px;
+    }
+
+    &-speeds {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding-bottom: 68px;
+
+        &-speed {
+
+            &:nth-child(2) {
+                margin: 0 70px;
+            }
+
+            &:last-child {
+                margin: 0 155px 0 70px;
+            }
+        }
     }
 }
