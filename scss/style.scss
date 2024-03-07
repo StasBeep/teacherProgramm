@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.car {
+    width: 1720px;
+    margin: 0 auto; // центрирование
+    background: url(../img/bg-main.png), linear-gradient(#282828, #0F0F0F);
+    background-repeat: no-repeat;
+    position: relative;
+
+    &-description {
+        width: 830px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        color: #ffffff;
+        margin: 0 0 300px;
+        padding-top: 76px;
+        padding-left: 141px;
+        box-sizing: border-box; // как только используем padding
+    }
+
+    &-car {
+        width: 900px;
+        height: 455px;
+        position: absolute;
+        top: 150px;
+        left: 800px;
+    }
+
+    &-advantages {
+        display: block;
+        text-align: end;
+        padding-right: 295px;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #ff0900;
+        margin-bottom: 61px;
+    }
+
+    &-speeds {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding-bottom: 68px;
+
+        &-speed {
+
+            &:nth-child(2) {
+                margin: 0 70px;
+            }
+
+            &:last-child {
+                margin: 0 155px 0 70px;
+            }
+        }
+    }
+}
