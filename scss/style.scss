@@ -1,6 +1,72 @@
+@import "./variables.scss";
+
 body {
     margin: 0;
 }
+
+.menu {
+    width: 1720px;
+    margin: 0 auto;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+
+    &-logo {
+        padding-top: 18px;
+        padding-left: 47px;
+        padding-bottom: 29px;
+        box-sizing: border-box;
+
+        &-title {
+            width: 236px;
+            text-align: center;
+            margin: 0;
+            color: $colortext;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+        }
+
+        &-description {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            color: $colortext;
+            margin: 0;
+        }
+    }
+
+    &-list {
+        display: flex;
+        width: 1200px;
+        list-style-type: none;
+        padding-top: 33px;
+        justify-content: space-between;
+        padding-right: 61px;
+        box-sizing: border-box;
+
+        &-li {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+
+            &>a {
+                color: $colortext;
+                text-decoration: none;
+                border-left: 0.5px solid $colortext;
+                padding-left: 25px;
+            }
+
+            &:first-child {
+                &>a {
+                    border-left: none;
+                }
+            }
+        }
+    }
+}
+
 
 .car {
     width: 1720px;
