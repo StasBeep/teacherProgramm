@@ -1,0 +1,93 @@
+/* Переменные (через $) */
+$wrapper-width: 1440px;
+$wrapper-container-left-right: 138px;
+
+
+// Переменные цвета
+
+$white: #FFFFFF;
+$white-light: #FAFAF9;
+$white-bright: #F7E6E6;
+$white-shadow: #EBE7E0;
+$white-gray: #E2DFF4;
+
+$brown: #884900;
+$brown-cherry: #420000;
+$light-brown: #865800;
+
+$pink: #DB4E66;
+$pink-cherry: #B0354A;
+$pink-light: #E8B0B9;
+$pink-pink: #FF6B6B;
+$fresh-pink: #FF1F3D;
+
+$dark: #222528;
+$black-grey: #222528;
+
+$grey: #A5AAAF;
+$gray-shadow: #D3D3D3;
+$light-grey: #90c1bf;
+$lighter-grey:#CED0D2;
+$dark-grey: #5B636B;
+$blurred-grey:#FBF5EA;
+
+$orange: #F2B236;
+$main-background-two: #ff9c1a;
+$dark-orange: #FBB835;
+
+$peach: #F6D799;
+$blurred-peach: #FFDD9B;
+$shadow-peach:#FFE9BF;
+
+
+/* === wrapper === */
+/* Обёртки - отдельный блок */
+.wrapper {
+    /*Максимальная ширина страницы и выравнивание содержимого по центру*/
+    width: $wrapper-width;
+    margin: 0 auto;
+
+    //Отступы по краям
+    &-container {
+        padding: 0 $wrapper-container-left-right;
+        box-sizing: border-box;
+    }
+
+    /* Обёртка для прижатия подвала к нижней части */
+    &-forcontent {
+        min-height: 100vh;
+        /* 100 видимых высот */
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* end === wrapper === end */
+
+
+
+/* === content-without-footer === */
+/* Основная часть без footer */
+.content-without-footer {
+    flex-grow: 1;
+
+    /* Отношение блоков */
+}
+
+/* end === content-without-footer === end */
+
+// обнуление стилей для базовых элементов
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+}

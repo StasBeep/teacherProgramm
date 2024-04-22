@@ -1,0 +1,17 @@
+/* mixin */
+/* example:
+@mixin font-lato-normal-size-line($size-format: 400, $fonts:14px, $linehe: 17px) {
+    font-family: lato;
+    font-weight: $size-format;
+    font-style: normal;
+    font-size: $fonts;
+    line-height: $linehe;
+}*/
+
+@mixin font($size-format: 400, $fonts:14px, $linehe: 17px) {
+    font-family: rubik;
+    font-weight: $size-format;
+    font-style: normal;
+    font-size: $fonts;
+    line-height: $linehe;
+}

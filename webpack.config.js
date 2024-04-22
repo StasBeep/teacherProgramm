@@ -65,6 +65,13 @@ module.exports = {
                     name: '[path][name].[ext]',
                     context: ''
                 }
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/,
+                loader: "file-loader",
+                options: {
+                    name: "[path][name].[ext]",
+                }
             }
         ]
     },
