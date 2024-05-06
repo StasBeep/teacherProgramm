@@ -2,6 +2,7 @@
 // ! Шрифты подлючаются выше, чем миксины
 @import "_fonts";
 @import "_mix";
+@import "./adaptive";
 
 *{
     margin: 0;
