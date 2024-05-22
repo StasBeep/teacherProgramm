@@ -3,6 +3,7 @@
 let btn = document.querySelector("#play");
 let timeInp = document.querySelectorAll(".time");
 let texttime = document.querySelector("#textime");
+let soundTrack = document.getElementById('soundtrack');
 let timerId;
 let k = false;
 
@@ -28,6 +29,8 @@ function timerChange() {
     k = checkTimer(h, m, s);
     if (k) {
         clearInterval(timerId);
+        soundTrack.src = './sound/pedro.mp3';
+        soundTrack.play();
     }
     changeText(h, m, s);
 }
