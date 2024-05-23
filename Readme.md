@@ -13,3 +13,6 @@
 
 # Вёрстка
  > <a href="https://www.figma.com/file/pS0KnmQeYHoKPXXrocNBB8/Product?node-id=0%3A1" target="_blank">Ссылка на макет для вёрстки</a> (Макет онлайн курсов)
+
+ ## npm run build
+ сборка исходного проекта
