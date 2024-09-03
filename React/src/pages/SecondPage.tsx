@@ -1,8 +1,8 @@
 const SecondPage = () => {
   return (
-        <div>
-            Вот это да
-        </div>
+    <div>
+      Вот это да
+    </div>
   )
 }
 
