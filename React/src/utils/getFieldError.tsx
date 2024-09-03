@@ -1,1 +1,0 @@
-export const getFieldError = () => <div className='flex justify-center text-rose-600'>Поле является обязательным</div>;
