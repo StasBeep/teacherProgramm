@@ -15,6 +15,7 @@ npm i --save-dev @types/react-plotly.js
 Далее использование библиотеки описано в файле `Plotly3d.tsx`
 
 Результат:
-<img src="#" alt="logo" width="275" height="200"></img>
+
+<img src="https://github.com/StasBeep/teacherProgramm/blob/plotly2d3d/public/plotly.png" alt="logo" width="275" height="200"></img>
 
 Ссылка по почти работающий пример: https://reactjsexample.com/a-plotly-js-react-component-from-plotly/
