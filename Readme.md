@@ -6,33 +6,15 @@
 
 Билд проекта
 
-### `git clone чужой репозиторий и git push ваш собственный репозиторий (Инструкция)`
+## Зависимости для использования библиотеки `plotly`
+```
+npm install react-plotly.js plotly.js
+npm i --save-dev @types/react-plotly.js
+```
 
-Ссылка на чужой репозиторий как на другой репозиторий.
+Далее использование библиотеки описано в файле `Plotly3d.tsx`
 
-### `Создайте новый репозиторий по адресу github/gitlab/bitbucket/etc. (это ваш репозиторий)`
+Результат:
+<img src="#" alt="logo" width="275" height="200"></img>
 
-! Дайте ему то же имя, что и другому репозиторию.
-! Не инициализируйте его с помощью README, .gitignore или лицензии.
-
-### `Клонируйте другой репозиторий на свой локальный компьютер. (если вы еще этого не сделали)`
-
-git clone https://github.com/other-account/other-repository.git
-
-### `Переименуйте текущий 'origin' локального репозитория в 'upstream'.`
-
-git remote rename origin upstream
-
-### `Укажите локальному репозиторию 'origin', который указывает на ваш репозиторий.`
-
-git remote add origin https://github.com/your-account/your-repository.git
-
-### `Перенесите локальный репозиторий в ваш репозиторий на github.`
-
-git push origin main
-
-### `Теперь "origin" указывает на ваш репозиторий, а "upstream" указывает на другой репозиторий.`
-
-Создайте новую ветку для ваших изменений с помощью git checkout -b my-feature-branch.
-Можете юзать git commit как обычно, использовать свой репозиторий.
-Используется git pull upstream main для переноса изменений из другого репозитория в вашу основную ветку.
+Ссылка по почти работающий пример: https://reactjsexample.com/a-plotly-js-react-component-from-plotly/

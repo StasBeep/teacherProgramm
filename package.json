@@ -12,8 +12,10 @@
     "@types/node": "^16.18.59",
     "@types/react": "^18.2.29",
     "@types/react-dom": "^18.2.14",
+    "plotly.js": "^2.35.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-plotly.js": "^2.6.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
     "shortid": "^2.2.16",
@@ -45,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-plotly.js": "^2.6.3",
     "@types/shortid": "^0.0.31",
     "classnames": "^2.3.2",
     "tailwindcss": "^3.3.3"
