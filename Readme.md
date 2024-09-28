@@ -11,5 +11,13 @@
 
 > moduleProgramm - модульное программирование
 
+> React - шаблон по запуску приложения по реакту
+
+> Vue - шаблон по запуску приложения на vue 3
+
+> Construct 3 - файлы по созданию игр на construct 3
+
 # Вёрстка
- > <a href="https://www.figma.com/file/pS0KnmQeYHoKPXXrocNBB8/Product?node-id=0%3A1" target="_blank">Ссылка на макет для вёрстки</a> (Макет онлайн курсов)
+ > <a href="https://www.figma.com/file/pS0KnmQeYHoKPXXrocNBB8/Product?node-id=0%3A1" target="_blank">Ссылка на макет для вёрстки Online School</a> (Макет онлайн курсов)
+
+ > <a href="https://www.figma.com/file/vzq6B13f5QQovzYciVcoKl/Сайт-ПЧШ?type=design&node-id=0-1&mode=design&t=GeOQOs7RCl5WX0mP-0" target="_blank">Ссылка на макет для вёрстки Bee Shop</a> (Макет магазина-пчёлка)
