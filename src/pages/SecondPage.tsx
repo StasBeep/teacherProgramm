@@ -3,7 +3,7 @@ import NavMenu from "../components/NavMenu"
 const contentMenu = [
   {
   product: "button1",
-  id: 1,
+  id: 212,
   img: "img"
   },
   {
@@ -26,10 +26,14 @@ const contentMenu = [
 const SecondPage = () => {
   return (
     <div>
-      <NavMenu productNav={contentMenu[0].product} />
-      <NavMenu productNav={contentMenu[1].product} />
-      <NavMenu productNav={contentMenu[2].product} />
-      <NavMenu productNav={contentMenu[3].product} />
+      <NavMenu
+        productNav={contentMenu[0].product}
+        alertFunction={contentMenu[0].id}
+      />
+      <NavMenu
+        productNav={contentMenu[1].product}
+        alertFunction={2}
+      />
     </div>
   )
 }

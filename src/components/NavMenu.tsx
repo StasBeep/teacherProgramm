@@ -1,17 +1,23 @@
 
 interface NavMenuProps {
-    productNav: string
+    productNav: string,
+    alertFunction: number;
 }
 
-const NavMenu = (props: NavMenuProps) => {
+const NavMenu = (a: NavMenuProps) => {
+    const alertButton = () => {
+        alert(a.alertFunction);
+    }
+    
     return (
         <button
             style={{
                 background: "orange",
                 border: "1px solid #000"
             }}
+            onClick={alertButton}
         >
-            {props.productNav}
+            {a.productNav}
         </button>
     )
 }
