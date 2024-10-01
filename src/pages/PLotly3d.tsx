@@ -6,15 +6,13 @@ const Plotly3d = () => {
     return <Plot
         data={[
             {
-                x: [1, 2, 3],
-                y: [2, 6, 3],
-                type: 'scatter',
-                mode: 'lines+markers',
-                marker: { color: 'red' },
-            },
-            { type: 'bar', x: [1, 2, 3], y: [2, 5, 3] },
+                x: [3, 2, 4, 4, 5],
+                y: [5, 2, 3, 4, 5],
+                z: [7, 2, 5, 4, 5],
+                type: 'mesh3d',
+            }
         ]}
-        layout={{ width: 320, height: 240, title: 'A Fancy Plot' }}
+        layout={{ width: 600, height: 600, title: 'A Fancy Plot' }}
     />
 }
 
