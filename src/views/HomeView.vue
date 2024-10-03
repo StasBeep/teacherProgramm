@@ -1,10 +1,9 @@
 <template>
   <main>
-    <input v-model="message" type="number" placeholder="k" @input="onChangeMatrix" />
-    {{ message }}
-    <input type="number">
-    <input type="number">
-    <input type="number">
+    <input type="number" @input="onChangeMatrix(1)" placeholder="k" />
+    <input type="number" @input="onChangeMatrix(2)" placeholder="k" />
+    <input type="number" @input="onChangeMatrix(3)" placeholder="k" />
+    <input type="number" @input="onChangeMatrix(4)" placeholder="k" />
   </main>
   <Footer />
 </template>
@@ -14,13 +13,27 @@ import { ref } from 'vue';
 import Footer from "../components/Footer.vue"
 name: "HomeView";
 
-const message = ref(0);
+const op1 = ref(0);
+const op2 = ref(0);
+const op3 = ref(0);
+const op4 = ref(0)
 
-const onChangeMatrix = (event) => {
-  console.log(Number(event.target.value));
-  message.value = event.target.value;
-  console.log("Состояние переменной message: " + message.value)
-} 
+const onChangeMatrix = (numInput) => {
+  switch (numInput) {
+    case 1:
+      console.log(numInput)
+      break;
+    case 2:
+      console.log(numInput)
+      break;
+    case 3:
+      console.log(numInput)
+      break;
+    case 4:
+      console.log(numInput)
+      break;
+  }
+}
 
 
 </script>
