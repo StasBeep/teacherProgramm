@@ -96,25 +96,25 @@ const resultMinor2to2 = (i, matrix) => {
 
     &-bracket {
       position: absolute;
-        right: -15px;
+      right: -15px;
+      top: 0;
+      width: 35px;
+      height: 110px;
+      transform: perspective(2px) rotateY(1deg);
+      border: solid black;
+      border-width: 3px 3px 3px 0;
+      border-radius: 0px 45px 45px 0;
+
+      &:first-child {
+        position: absolute;
+        right: 240px;
         top: 0;
         width: 35px;
         height: 110px;
-        transform: perspective(2px) rotateY(1deg);
+        transform: perspective(2px) rotateY(179deg);
         border: solid black;
         border-width: 3px 3px 3px 0;
         border-radius: 0px 45px 45px 0;
-      
-      &:first-child {
-        position: absolute;
-          right: 240px;
-          top: 0;
-          width: 35px;
-          height: 110px;
-          transform: perspective(2px) rotateY(179deg);
-          border: solid black;
-          border-width: 3px 3px 3px 0;
-          border-radius: 0px 45px 45px 0;
       }
     }
 
@@ -126,6 +126,7 @@ const resultMinor2to2 = (i, matrix) => {
         font-size: 20px;
         line-height: 16px;
         padding: 10px;
+        box-sizing: border-box;
         margin-right: 20px;
         border-radius: 10px;
         border: 0.3px solid black;
@@ -143,6 +144,37 @@ const resultMinor2to2 = (i, matrix) => {
     line-height: 16px;
     margin-top: 45px;
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .determinant {
+
+    &-matrix {
+
+      &-bracket {
+        height: 75px;
+
+        &:first-child {
+          right: 140px;
+          height: 75px;
+        }
+      }
+
+      &-column-inp {
+        width: 50px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 8px;
+        padding: 5px;
+      }
+    }
+
+    &-result {
+      font-size: 14px;
+      line-height: 8px;
+      margin-top: 33px;
+    }
   }
 }
 </style>

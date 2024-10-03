@@ -19,4 +19,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 700px) {
+  .menu {
+    width: 265px;
+  }
+}
 </style>
