@@ -1,4 +1,5 @@
 <template>
+  <TitleMatrix title="Определитель матрицы 2х2" />
   <main class="determinant">
     <figure class="determinant-matrix">
       <div class="determinant-matrix-bracket" />
@@ -25,6 +26,7 @@
 
 <script setup>
 import { ref } from 'vue'; // Переменные состояния
+import TitleMatrix from '../components/TitleMatrix.vue'
 import Footer from "../components/Footer.vue" // Компонент, используемый в вёрстке
 name: "HomeView";
 
@@ -87,7 +89,7 @@ const resultMinor2to2 = (i, matrix) => {
 .determinant {
   display: flex;
   justify-content: center;
-  margin: 250px auto;
+  margin: 20px auto 250px;
 
   &-matrix {
     position: relative;
