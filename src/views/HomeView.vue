@@ -1,9 +1,11 @@
 <template>
   <main>
-    <input type="number" @input="onChangeMatrix(1)" placeholder="k" />
-    <input type="number" @input="onChangeMatrix(2)" placeholder="k" />
-    <input type="number" @input="onChangeMatrix(3)" placeholder="k" />
-    <input type="number" @input="onChangeMatrix(4)" placeholder="k" />
+    <input v-model="op1" type="number" @input="onChangeMatrix" placeholder="k" />
+    <input v-model="op2" type="number" @input="onChangeMatrix" placeholder="k" />
+    <input v-model="op3" type="number" @input="onChangeMatrix" placeholder="k" />
+    <input v-model="op4" type="number" @input="onChangeMatrix" placeholder="k" />
+    =
+    {{ determination }}
   </main>
   <Footer />
 </template>
@@ -16,23 +18,38 @@ name: "HomeView";
 const op1 = ref(0);
 const op2 = ref(0);
 const op3 = ref(0);
-const op4 = ref(0)
+const op4 = ref(0);
+const determination = ref(0);
 
-const onChangeMatrix = (numInput) => {
-  switch (numInput) {
-    case 1:
-      console.log(numInput)
-      break;
-    case 2:
-      console.log(numInput)
-      break;
-    case 3:
-      console.log(numInput)
-      break;
-    case 4:
-      console.log(numInput)
-      break;
+const onChangeMatrix = () => {
+  console.log(op1.value, op2.value, op3.value, op4.value);
+  const matrixArray = [[op1.value, op2.value], [op3.value, op4.value]];
+  console.log(matrixArray);
+  determination.value = resultDeterminationMatrix(matrixArray);
+}
+
+const resultDeterminationMatrix = (matrix) => {
+  // Цикл один, потому что двигаемся по столбцам
+  let mainDiagonal;
+  let secondaryDiagonal;
+  for (let i = 0; i < matrix.length; i++) {
+    switch (i) {
+      case 0:
+        mainDiagonal =  resultMinor2to2(i, matrix);
+        break;
+      case 1:
+        secondaryDiagonal = resultMinor2to2(i, matrix);
+        break;
+    }
   }
+
+  console.log(mainDiagonal, secondaryDiagonal)
+
+  return mainDiagonal + secondaryDiagonal;
+}
+
+const resultMinor2to2 = (i, matrix) => {
+  return matrix[0][i] * Math.pow(-1, 1 + i + 1) * matrix[1][matrix.length - i - 1];
 }
 
 
