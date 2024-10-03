@@ -1,11 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header>
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
+    <nav class="menu">
+      <RouterLink to="/">2-x мерная</RouterLink>
+      <RouterLink to="/three-dimensional">3-x мерная</RouterLink>
+      <RouterLink to="/four-dimensional">4-x мерная</RouterLink>
     </nav>
   </header>
 
@@ -13,5 +14,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style lang="scss" scoped>
-
+.menu {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
 </style>
