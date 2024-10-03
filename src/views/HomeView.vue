@@ -89,7 +89,7 @@ const resultMinor2to2 = (i, matrix) => {
 .determinant {
   display: flex;
   justify-content: center;
-  margin: 20px auto 250px;
+  margin: 35px auto 250px;
 
   &-matrix {
     position: relative;
