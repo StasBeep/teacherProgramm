@@ -1,1 +1,131 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: black;
+}
+.menu-wrp {
+  padding: 20px 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-wrp-logo {
+  margin-right: 40px;
+  width: 40px;
+  height: 40px;
+}
+.menu-wrp-search {
+  width: 40px;
+  height: 40px;
+}
+
+.main {
+  width: 1600px;
+  margin: 0 auto;
+}
+.main-divider {
+  position: absolute;
+  width: 12px;
+  height: 95px;
+  background: #f16d7f;
+  right: 755px;
+}
+.main-first {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  background: url("/img/bg-main-block.png"), #f1e4e6;
+  background-repeat: no-repeat;
+}
+.main-first-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 290px 330px 380px 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+.main-first-title-words {
+  display: block;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+.main-first-title-end {
+  color: #f16d7f;
+}
+.main-discount {
+  padding: 65px 230px;
+  box-sizing: border-box;
+}
+.main-discount-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.main-discount-up-button {
+  width: 360px;
+  padding: 105px 103px;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(0, 0, 0, 0.65) url("/img/wooman-card.png");
+  background-blend-mode: darken;
+  cursor: pointer;
+}
+.main-discount-up-button-percent {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-discount-up-button-human {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+.main-discount-up-button:hover {
+  background-blend-mode: lighten;
+}
+.main-discount-up > .main-discount-up-button:nth-child(2) {
+  background: rgba(0, 0, 0, 0.65) url("/img/men-card.png");
+}
+.main-discount-up > .main-discount-up-button:last-child {
+  background: rgba(0, 0, 0, 0.65) url("/img/child-card.png");
+}
+.main-discount-down {
+  width: 100%;
+  padding: 65px;
+  text-align: center;
+  border: none;
+  background: rgba(0, 0, 0, 0.65) url("/img/things-card.png");
+  background-blend-mode: darken;
+  cursor: pointer;
+}
+.main-discount-down-percent {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-discount-down-text {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+.main-discount-down:hover {
+  background-blend-mode: lighten;
+}/*# sourceMappingURL=style.css.map */
