@@ -1,27 +1,38 @@
-# Изучение программирования на языках JS, С++, С# (Парус)
-Программирование на JS, C++, C#, React, Vue, модульное на JavaScript
+### `npm start`
 
-Создание игр на construct 3
+Стартуем локально
 
-> JS код лежит в папке JavaScript
+### `npm run build`
 
-> C++ код лежит в папке C++
+Билд проекта
 
-> C# код лежит в папке C#
+### `git clone чужой репозиторий и git push ваш собственный репозиторий (Инструкция)`
 
-> Задания
+Ссылка на чужой репозиторий как на другой репозиторий.
 
-> moduleProgramm - модульное программирование
+### `Создайте новый репозиторий по адресу github/gitlab/bitbucket/etc. (это ваш репозиторий)`
 
-> React - шаблон по запуску приложения по реакту
+! Дайте ему то же имя, что и другому репозиторию.
+! Не инициализируйте его с помощью README, .gitignore или лицензии.
 
-> Vue - шаблон по запуску приложения на vue 3
+### `Клонируйте другой репозиторий на свой локальный компьютер. (если вы еще этого не сделали)`
 
-> Construct 3 - файлы по созданию игр на construct 3
+git clone https://github.com/other-account/other-repository.git
 
-## Вёрстка
- > <a href="https://www.figma.com/file/pS0KnmQeYHoKPXXrocNBB8/Product?node-id=0%3A1" target="_blank">Ссылка на макет для вёрстки Online School</a> (Макет онлайн курсов)
+### `Переименуйте текущий 'origin' локального репозитория в 'upstream'.`
 
- > <a href="https://www.figma.com/file/vzq6B13f5QQovzYciVcoKl/Сайт-ПЧШ?type=design&node-id=0-1&mode=design&t=GeOQOs7RCl5WX0mP-0" target="_blank">Ссылка на макет для вёрстки Bee Shop</a> (Макет магазина-пчёлка)
+git remote rename origin upstream
 
-### Полезные ветки, которые пригодятся в процессе обучения
+### `Укажите локальному репозиторию 'origin', который указывает на ваш репозиторий.`
+
+git remote add origin https://github.com/your-account/your-repository.git
+
+### `Перенесите локальный репозиторий в ваш репозиторий на github.`
+
+git push origin main
+
+### `Теперь "origin" указывает на ваш репозиторий, а "upstream" указывает на другой репозиторий.`
+
+Создайте новую ветку для ваших изменений с помощью git checkout -b my-feature-branch.
+Можете юзать git commit как обычно, использовать свой репозиторий.
+Используется git pull upstream main для переноса изменений из другого репозитория в вашу основную ветку.

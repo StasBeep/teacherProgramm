@@ -1,43 +1,23 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Dump file
-*.stackdump
+# testing
+/coverage
 
-# Folder config file
-[Dd]esktop.ini
+# production
+/build
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/windows
-
-style.css.map
-index.css.map
-
-node_modules
-.cache
-dist
-
-draft
-
-bin
-.vs
-obj
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
