@@ -9,36 +9,46 @@ const TraficLight = () => {
     const [yellow, setYellow] = React.useState(0);
     const [green, setGreen] = React.useState(0);
 
-    // setInterval(() => {
-    //     const t = counter - 1;
-    //     setCounter(t);
+    let a = 3;
 
-    //     if (elLight === 0) 
-    //     {
-    //         if (counter === 0) {
-    //             setElLight(1);
-    //             setCounter(3);
-    //             setYellow(2);
-    //         }
-    //     } else if (elLight === 1) {
-    //         if (counter === 0) {
-    //             setElLight(2);
-    //             setCounter(3);
-    //             setRed(0);
-    //             setYellow(0);
-    //             setGreen(3);
-    //         }
-    //     } else if (elLight === 2) {
-    //         if (counter === 0) {
-    //             setElLight(0);
-    //             setCounter(3);
-    //             setRed(0);
-    //             setYellow(2);
-    //             setGreen(3);
-    //         }
-    //     }
+    const playInterval = () => {
         
-    // }, 1000);
+    }
+
+    const activeinterval = setInterval(() => {
+        console.log(a);
+        a--;
+
+        if (a === 0) {
+            a = 3;
+        }
+
+        // if (elLight === 0) 
+        // {
+        //     if (counter === 0) {
+        //         setElLight(1);
+        //         setCounter(3);
+        //         setYellow(2);
+        //     }
+        // } else if (elLight === 1) {
+        //     if (counter === 0) {
+        //         setElLight(2);
+        //         setCounter(3);
+        //         setRed(0);
+        //         setYellow(0);
+        //         setGreen(3);
+        //     }
+        // } else if (elLight === 2) {
+        //     if (counter === 0) {
+        //         setElLight(0);
+        //         setCounter(3);
+        //         setRed(0);
+        //         setYellow(2);
+        //         setGreen(3);
+        //     }
+        // }
+
+    }, 1000);
 
     return (
         <div
@@ -47,6 +57,7 @@ const TraficLight = () => {
                 margin: '0 auto'
             }}
         >
+            {a}
             {counter}
             <Light colorCircle={red} p={-1} />
             <Light colorCircle={yellow} p={-1} />
