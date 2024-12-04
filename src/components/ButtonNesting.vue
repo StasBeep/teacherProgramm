@@ -1,5 +1,6 @@
 <template>
     <button class="nesting-btn" 
+    @click="countElement"
     :style="[`background: ${backgroundbutton}`]"
     >
         {{
@@ -30,7 +31,16 @@ defineProps({
         type: String,
         default: 'blue'
     }
-})
+});
+
+const emits = defineEmits(
+    ['clickReaction', 'clickReaction2']
+)
+
+function countElement() {
+    emits('clickReaction', 'returnClicked!', 0);
+    emits('clickReaction2', 'Another click!', 1);
+}
 </script>
 
 <style lang="scss" scoped>
