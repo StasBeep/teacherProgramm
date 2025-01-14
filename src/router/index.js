@@ -21,7 +21,12 @@ const router = createRouter({
     {
       path: "/nesting",
       name: "nesting",
-      component: NestingView
+      component: NestingView,
+    },
+    {
+      path: "/colortext",
+      name: "colortext",
+      component: () => import("../views/Example.vue"),
     },
   ],
 });
