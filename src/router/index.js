@@ -28,6 +28,11 @@ const router = createRouter({
       name: "colortext",
       component: () => import("../views/Example.vue"),
     },
+    {
+      path: "/traffic",
+      name: "fraffic",
+      component: () => import("../views/TraficLight.vue")
+    }
   ],
 });
 
