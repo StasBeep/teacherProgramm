@@ -24,4 +24,6 @@
 
  > <a href="https://www.figma.com/file/vzq6B13f5QQovzYciVcoKl/Сайт-ПЧШ?type=design&node-id=0-1&mode=design&t=GeOQOs7RCl5WX0mP-0" target="_blank">Ссылка на макет для вёрстки Bee Shop</a> (Макет магазина-пчёлка)
 
+ > <a href="https://www.figma.com/design/2xSwAb4gbhyQSCLihy8lIc/Online-Course-E-Learning-Educational-Website-UI-Template-Design-in-Light-Theme---FREE-Editable----Community-?node-id=21-335&t=bWhSq15TyI5huisr-0" target="_blank">Ссылка на макет онлайн курсов</a> (Макет магазина-пчёлка)
+
 ### Полезные ветки, которые пригодятся в процессе обучения
