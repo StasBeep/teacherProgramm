@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.header {
+
+    &-ad {
+        background-color: #ff9500;
+        border-radius: 8px;
+
+        &-link {
+            display: flex;
+            justify-content: center;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            color: #fff;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            text-decoration: none;
+
+            &-svg {
+                margin-left: 23px;
+            }
+        }
+    }
+
+    &-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 100px 24px;
+
+        &-nav {
+             width: 350px;
+            display: flex;
+            justify-content: space-between;
+
+            &-list {
+                display: flex;
+            }
+        }
+    }
+}
