@@ -33,10 +33,56 @@
   padding: 20px 100px 24px;
 }
 .header-menu-nav {
-  width: 350px;
   display: flex;
   justify-content: space-between;
 }
 .header-menu-nav-list {
   display: flex;
+  list-style-type: none;
+}
+.header-menu-nav-list-li {
+  align-self: center;
+  padding: 10px 9px;
+  margin-left: 20px;
+}
+.header-menu-nav-list-li-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration: none;
+  color: #262626;
+}
+.header-menu-nav-list-li:hover {
+  background-color: #f1f1f3;
+}
+.header-menu-reg {
+  width: 245px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.header-menu-reg-li-btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #262626;
+  padding: 14px 34px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.8s ease;
+}
+.header-menu-reg .header-menu-reg-li:nth-child(1) > .header-menu-reg-li-btn {
+  padding: 14px 25px;
+  background: transparent;
+}
+.header-menu-reg .header-menu-reg-li:nth-child(1) > .header-menu-reg-li-btn:hover {
+  background: aqua;
+}
+.header-menu-reg .header-menu-reg-li:nth-child(2) > .header-menu-reg-li-btn {
+  background: #ff9500;
+  color: #fff;
+}
+.header-menu-reg .header-menu-reg-li:nth-child(2) > .header-menu-reg-li-btn:hover {
+  background: aqua;
 }/*# sourceMappingURL=style.css.map */

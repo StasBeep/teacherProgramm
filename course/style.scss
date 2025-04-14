@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,6 @@
 }
 
 .header {
-
     &-ad {
         background-color: #ff9500;
         border-radius: 8px;
@@ -38,12 +37,69 @@
         padding: 20px 100px 24px;
 
         &-nav {
-             width: 350px;
             display: flex;
             justify-content: space-between;
 
             &-list {
                 display: flex;
+                list-style-type: none;
+
+                &-li {
+                    align-self: center;
+                    padding: 10px 9px;
+                    margin-left: 20px;
+
+                    &-link {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 150%;
+                        text-decoration: none;
+                        color: #262626;
+                    }
+
+                    &:hover {
+                        background-color: #f1f1f3;
+                    }
+                }
+            }
+        }
+
+        &-reg {
+            width: 245px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+
+            &-li {
+                &-btn {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #262626;
+                    padding: 14px 34px;
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: background 0.8s ease;
+                }
+            }
+
+            & .header-menu-reg-li:nth-child(1) > .header-menu-reg-li-btn {
+                padding: 14px 25px;
+                background: transparent;
+
+                &:hover {
+                    background: aqua;
+                }
+            }
+
+            & .header-menu-reg-li:nth-child(2) > .header-menu-reg-li-btn {
+                background: #ff9500;
+                color: #fff;
+
+                &:hover {
+                    background: aqua;
+                }
             }
         }
     }
