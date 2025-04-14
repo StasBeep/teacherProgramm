@@ -85,4 +85,32 @@
 }
 .header-menu-reg .header-menu-reg-li:nth-child(2) > .header-menu-reg-li-btn:hover {
   background: aqua;
+}
+
+.main-course {
+  padding-top: 70px;
+}
+.main-course-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+}
+.main-course-title-svgs {
+  position: relative;
+}
+.main-course-title-svgs-splashes {
+  position: absolute;
+  top: -30px;
+  left: -19px;
+  width: 20px;
+}
+.main-course-title-svgs-lightning {
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-color: #fff4e5;
+}
+.main-course-title-first {
+  color: #ff9500;
 }/*# sourceMappingURL=style.css.map */
