@@ -1,47 +1,27 @@
-import * as React from "react";
+import React from "react";
+
+import {
+  Box,
+  Button,
+} from "@mui/material";
 
 const MainPage = () => {
-  const [counter, setConter] = React.useState(3);
+  const [data, setData] = React.useState(0);
 
-  // function test()
+  return <Box
+    sx={{
+      width: '1200px',
+      m: '0 auto'
+    }}
+  >
+    {data}
+    <Button
+      variant='contained'
+      onClick={() => setData(data + 1)}
+    >
+      +1
+    </Button>
+  </Box>
+};
 
-  const test = () => {
-    let p = counter + 1;
-    setConter(p);
-  }
-
-  return (
-    <div style={{
-      width: '900px',
-      margin: '0 auto',
-      padding: '10px',
-      fontSize: '30px'
-    }}>
-      Счётчик:
-      <span style={{
-        color: counter % 5 ? 'red' : 'blue'
-      }}>
-        {counter}
-      </span>
-      <button
-        style={{
-        background: 'orange'
-        }}
-        onClick={test}
-      >
-        Жми
-      </button>
-      {
-        counter % 5 ?
-          null
-          :
-          <p>
-            Делится без остатся на 5
-          </p>
-      }
-      
-    </div>
-  )
-}
-
-export default MainPage
+export default MainPage;
