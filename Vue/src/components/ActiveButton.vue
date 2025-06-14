@@ -2,9 +2,7 @@
     <button class="btn" @click="activeButton">{{ active }}</button>
 </template>
 
-<script setup>
-name: "ActiveButton"
-
+<script setup lang="ts">
 import { ref } from 'vue';
 
 defineProps({
