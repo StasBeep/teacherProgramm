@@ -18,5 +18,7 @@ public class posledovatel {
         double d = a + Math.sqrt(b) + c;
 
         System.out.println(d);
+
+        scanner.close();
     }
 }
