@@ -42,3 +42,5 @@ javac HelloWorld.java
 ```
 java HelloWorld
 ```
+
+`chikli.java` - пример выполнения лабораторной работа №3 (Циклы)
